@@ -1,7 +1,9 @@
 ---
 import MySiteLayout from "../layouts/MySiteLayout.astro";
+import ReactComponent from "../components/ReactComponent";
 ---
 
 <MySiteLayout>
 	<h1>Home</h1>
+	<ReactComponent client:visible />
 </MySiteLayout>
